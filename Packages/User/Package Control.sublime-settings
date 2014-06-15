@@ -1,0 +1,35 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Codecs33",
+		"ConvertToUTF8",
+		"CTags",
+		"Emmet",
+		"Git",
+		"GitGutter",
+		"HTML5",
+		"MacTerminal",
+		"Markdown Extended",
+		"OmniMarkupPreviewer",
+		"PhpDoc",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jshint",
+		"SublimeLinter-pep257",
+		"SublimeLinter-pep8",
+		"SublimeLinter-phplint",
+		"SublimePythonIDE",
+		"SublimeREPL",
+		"SuperNavigator",
+		"SyncedSideBar",
+		"Tag",
+		"Theme - Flatland",
+		"TrailingSpaces",
+		"Xdebug Client"
+	]
+}
