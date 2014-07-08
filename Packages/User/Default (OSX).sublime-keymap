@@ -45,5 +45,49 @@
     // reindentのショートカット
     { "keys": ["super+alt+r"], "command": "reindent" , "args":
       { "single_line": false }
-    }
+    },
+
+   {
+        "keys": ["g", "t"],
+        "command": "next_view",
+        "context":
+        [
+            { "key": "setting.is_widget", "operand": false },
+            { "key": "setting.command_mode" }
+        ]
+    },
+    {
+        "keys": ["g", "T"],
+        "command": "prev_view",
+        "context":
+        [
+            { "key": "setting.is_widget", "operand": false },
+            { "key": "setting.command_mode" }
+        ]
+    },
+
+    {
+        "keys": ["s", "p"], "command": "simple_clone",
+        "args":
+        {
+            "location": "right",
+        },
+        "context":
+        [
+            { "key": "simpleclone_keymap_enabled.right" },
+            { "key": "setting.command_mode" },
+        ]
+    },
+    {
+        "keys": ["v", "s"], "command": "simple_clone",
+        "args":
+        {
+            "location": "down",
+        },
+        "context":
+        [
+            { "key": "simpleclone_keymap_enabled.down" },
+            { "key": "setting.command_mode" },
+        ]
+    },
 ]
